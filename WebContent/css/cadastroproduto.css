@@ -1,0 +1,109 @@
+.main-display {
+    height: 132vh;
+    width: 94%;
+    background-color: white;
+    overflow: hidden;
+    margin: 2vh 3% 10vh;
+}
+.cover {
+    width: 90%;
+    height: 50vh;
+    margin: .5vh 5%;
+    overflow: hidden;
+}
+.cover img {
+    max-width: 100%;
+}
+.thumbs {
+    width: 92%;
+    height: 12vh;
+    margin: 1vh 4% .5vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*border: solid 2px rgb(148, 143, 143);*/
+}
+.thumbs-img {
+    border: solid 4px #ccc;
+    overflow: hidden;
+}
+.thumbs-img:nth-child(2),
+.thumbs-img:nth-child(3),
+.thumbs-img:nth-child(4) {
+    border-left: transparent;
+}
+.thumbs-img:hover {
+    border: solid 4px rgb(61, 162, 196);
+}
+.thumbs-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.display-text {
+    width: 90%;
+    height: 60vh;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+}
+.text-fill {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.text-fill label {
+    margin: 2vh 0 0 6%;
+}
+.btn-display-update {
+    background-color: rgb(80, 175, 207);
+    color: white;
+    border: none;
+    width: 80%;
+    height: 7vh;
+    border-radius: 8px;
+    margin: 4vh 10% 0;
+    font-size: 1.1em;
+    transition: all linear .4s;
+}
+.btn-display-update:hover{
+    background-color: rgb(51, 145, 177);
+}
+.text-fill input[type=text] {
+    border: none;
+    background-color: inherit;
+    text-align: center;
+}
+.text-fill:nth-child(even) {
+    background-color: rgb(238, 228, 228);
+}
+.text-fill-check {
+    margin: 1.3vh 0 0 46%;
+}
+input[type="checkbox"] {
+    appearance: none;
+    width: 50px;
+    height: 25px;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    transition: all linear .3s;
+    position: relative;
+}
+input:checked[type="checkbox"] {
+    background-color: #03a9f4;
+}
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: all linear .3s;
+}
+input:checked[type="checkbox"]::before {
+    left: 25px;
+}

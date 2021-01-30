@@ -1,0 +1,35 @@
+https://www.homemmaquina.com.br/18-dicas-de-ux-design-para-formularios-de-login-e-cadastro/
+##Pesquisas sobre ux
+
+Definir Identidade visual da plataforma(Gosto do estilo do enjoei, mas pesquisar netshoes tb)
+
+#KEY <i class="fa fa-key"></i>
+
+#PENCIL <i class="fa fa-pencil-alt"></i>
+
+##Padrão para seguir!Gostei muito!
+https://elementor.thembay.com/besa/home-3/
+
+
+###########################
+função auto-complete *USAR com AJAX
+<script>$(function() {​​
+
+var esportes = ["Natação","Futebol","Vôlei","Basquete"];
+
+$("#esporte" ).autocomplete({​​
+    source: esportes
+  }​​);
+
+}​​);</script>
+###########################
+
+
+API Correios/CEP
+#####################################################################
+#########################http://cep.la/api###########################
+#####################################################################
+
+#################################JSON##########################################################
+########https://hkotsubo.github.io/blog/2019-04-13/como-ler-e-manipular-um-json#javascript#####
+#################################JSON##########################################################

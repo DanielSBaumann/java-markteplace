@@ -1,0 +1,404 @@
+.pay{
+    height: auto;
+    width: 94%;
+    margin: 2vh 3% 14vh;
+    background-color: white;
+}
+.pay-prod{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+.pay-prod-title{
+    box-sizing: border-box;
+    height: 8vh;
+    width: 100%;
+    border: solid 1px rgb(196, 194, 194);
+    background-color: rgb(252, 252, 252);
+}
+.pay-prod-title div{
+    display: inline-block;
+    margin: 3vh 0 0 4%;
+}
+.pay-prod-title div:nth-child(2){
+    margin-left: 60%;
+}
+.pay-prod-box{
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 6px rgb(241, 234, 234);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+}
+.ppb-prod{
+    background-color: white;
+}
+.ppb-prod-img{
+    height: 24vh;
+    width: 92%;
+    margin: 1.5vh 4% 1vh;
+}
+.ppb-prod-img img{
+    max-width: 70%;
+    margin: 2vh 0 0 12%;
+}
+.ppb-price{
+    background-color: white;
+}
+.ppb-price p{
+    height: 2vh;
+    width: 10%;
+    margin: 2vh 0 0 52%;
+}
+.ppb-prod-info{
+    height: 8vh;
+    width: 86%;
+    margin: 1vh 7%;
+}
+.ppb-prod-info p{
+    font-size: .8em;
+    margin-bottom: 1vh;
+}
+.ppb-prod-info a{
+    color: rgb(250, 79, 38);
+}
+.ppb-prod-info p:nth-child(1){
+    text-align: center;
+}
+.ppb-prod-info p:nth-child(2){
+    margin-left: 20%;
+}
+.ppb-prod-info p:nth-child(2),
+.ppb-prod-info p:nth-child(3){
+    color: #ccc;
+}
+.pay-prod-address{
+    height: 36vh;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid 12px rgb(241, 234, 234);
+}
+.ppa-sub{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 6px rgb(241, 234, 234);
+    font-size: 1.3em;
+}
+.ppa-sub p{
+    display: inline-block;
+    margin: 4vh 0 0 4%;
+    color: rgb(250, 79, 38);
+}
+.ppa-sub p:nth-child(2){
+    margin-left: 48%;
+}
+.ae-top{
+    height: 26vh;
+    width: 100%;
+}
+.ae-top-title{
+    height: 4vh;
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: solid 1px #ccc;
+}
+.ae-top-title p{
+    padding-top: 1vh;
+}
+.ae-top-info{
+    height: 22vh;
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: solid 1px #ccc;
+}
+.ae-top-info p{
+    color: rgb(175, 170, 170);
+    font-size: 1.1em;
+    padding-top: .4vh;
+}
+.ae-top-info p:nth-child(1){
+    padding-top: 4vh;
+}
+.ae-bottom{
+    height: 10vh;
+    width: 90%;
+    margin: 0 5%;
+    text-align: center;
+}
+.ae-bottom p{
+    margin: 1vh 0 2vh;
+    font-size: .8em;
+    color: rgb(250, 79, 38);
+}
+.address-btn{
+    border: none;
+    height: 30px;
+    width: 16%;
+    border-radius: 8px;
+    background-color: rgb(250, 79, 38);
+    color: white;
+}
+#ae-msg{
+    color: rgb(175, 170, 170);
+    font-size: .8em;
+}
+#ae-msg p{
+    color: rgb(175, 170, 170);
+    padding-top: 6vh;
+}
+#ae-msg u{
+    color: rgb(250, 79, 38);
+}
+.ai-top-info{
+    height: 22vh;
+    width: 90%;
+    margin: 0 5%;
+    border-bottom: solid 1px #ccc;
+    color: rgb(175, 170, 170);
+}
+
+.ai-top-info div:nth-child(1){
+    padding-top: 2vh;
+}
+.inpt-add{
+    color: rgb(175, 170, 170);
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    height: 3vh;
+    width: 40%;
+    text-align: center;
+    background-color:rgb(240, 232, 232);
+}
+#exibir-endereco div{
+    margin-bottom: .5vh;
+    color: rgb(175, 170, 170);
+}
+.msg-erro-cep{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: .5em;
+    color: red;
+    border: solid 1px red;
+    border-radius: 90px;
+    background-color: white;
+    height: 20px;
+    width: 60px;
+}
+.pay-prod-card{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.ppc-title{
+    height: 6vh;
+    width: 100%;
+    position: absolute;
+    border: solid 1px rgb(196, 194, 194);
+    background-color: rgb(252, 252, 252);
+    box-sizing: border-box;
+}
+.ppc-title p{
+    display: inline-block;
+    padding: 2vh 0 0 4%;
+}
+/*para cartoes ja existentes*/
+.credit-card-box-2{
+    height: 38vh;
+    width: 100%;
+    margin: 6vh 0 0 0;
+    background-color: white;
+    position: absolute;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.card-filled{
+    height: 37vh;
+    width: 100%;
+    background-color:white;
+    border-bottom: solid 1vh rgb(240, 234, 234);
+}
+.card-filled-box{
+    width: 74%;
+    height: 26vh;
+    margin: 6vh 13% 0;
+    background-color: white;
+    border: solid 5px #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.cfb-img{
+    height: 2vh;
+    width: 30%;
+    margin: 4vh 0 0 5%;
+}
+.cfb-img img{
+    max-width: 100%;
+}
+.cfb-num{
+    height: 6vh;
+    width: 90%;
+    margin: 7vh 5% 0;
+}
+.cfb-num input{
+    border: none;
+    color: rgb(158, 152, 152);
+    background-color: white;
+    font-size: 1.3em;
+    width: 22%;
+    text-align: center;
+}
+.cfb-date{
+    width: 86%;
+    margin: 1vh 7% 0;
+    color: rgb(158, 152, 152);
+    font-size: .8em;
+}
+.card-filled-info{
+    height: 2vh;
+    width: 40%;
+    margin: 3vh 0 0 13%;
+    font-size: .8em;
+    color: rgb(158, 152, 152);
+}
+/*para cartoes ja existentes*/
+.credit-card-box{
+    height: 28vh;
+    width: 74%;
+    margin: 12vh 13% 1vh;
+    background-color: rgb(216, 207, 207);
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: -14px 12px 9px 4px rgba(201,201,201,0.44);
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.ccb-top{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+.ccb-top div:nth-child(2){
+    margin-left: 4%;
+}
+.ccb-top div:nth-child(2) input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: .9em;
+    text-align: center;
+}
+.ccb-top div:nth-child(3){
+    margin: .8vh 0 0 6%;
+}
+.ccb-top div:nth-child(3) div{
+    position: absolute;
+    margin: -6vh 0 0 64%;
+    font-size: 2.8em
+}
+.ccb-top div:nth-child(3) input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: .9em;
+    text-align: center;
+}
+.ccb-top label{
+    display: block;
+    color: rgb(153, 148, 148);
+    font-size: .9em;
+}
+.ccb-top div:nth-child(1){
+    margin-top: 1vh;
+    text-align: center;
+    color: rgb(153, 148, 148);
+}
+.ccb-bottom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ccb-bottom div:nth-child(1){
+    margin-left: 40%;
+}
+.ccb-bottom div:nth-child(1) p{
+    display: inline-block;
+    color: rgb(153, 148, 148);
+    font-size: 1.2em;
+    margin-left: 16%;
+}
+.ccb-bottom input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: .9em;
+    text-align: center;
+}
+.ccb-bottom label{
+    color: rgb(153, 148, 148);
+    font-size: .9em;
+    display: block;
+}
+.ppc-msg{
+    height: 2vh;
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
+    color: rgb(77, 228, 77);
+    position: absolute;
+    margin-top: 43vh;
+}
+.ppc-msg p:nth-child(3){
+    color: #ccc;
+    font-size: .8em;
+    text-align: center;
+    margin:2vh 0 0 66%;
+    border-radius: 45px;
+    border: transparent 1px solid;
+    width: 130px;
+    height: 20px;
+    position: absolute;
+}
+.ppc-msg p:nth-child(3):hover{
+    border: solid 1px #ccc;
+    color: rgb(250, 79, 38);
+}
+.ppc-final{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    margin-top: 50vh;
+    border: solid 1px rgb(196, 194, 194);box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ppc-msg p:nth-child(2){
+    color: red;
+    display: none;
+}
+.btn-ppc{
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-size: 1.1em;
+    background-color: rgb(250, 79, 38);
+    border-radius: 8px;
+    border: none;
+}
+.ppc-final div:nth-child(1){
+    margin: 4vh 0 0 6%;
+}
+.ppc-final div:nth-child(2){
+    margin: 2vh 0 0 10%;
+}
+#card-logo-4{
+    width: 60px;
+}
+#card-logo-4 img{
+    max-width: 100%;
+}
