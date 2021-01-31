@@ -36,7 +36,7 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
 <br>
 
-<img src="webcontent/readme/loginscreen.gif" width="700" height="300" alt="gif-login"/>
+<img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen.gif" width="700" height="300" alt="gif-login"/>
 
 <br>
 <br>
@@ -45,7 +45,7 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
 <br>
 
-<img src="webcontent/readme/main.gif" width="700" height="300" alt="gif-login"/>
+<img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/main.gif" width="700" height="300" alt="gif-login"/>
 
 <br>
 ---
