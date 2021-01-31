@@ -57,9 +57,9 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 ### Algumas funcionalidades:
 <br>
 <p align="center">
-  <img src="webcontent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
+  <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
 
-  <img src="webcontent/readme/main3.gif" width="220" height="300" alt="gif-login"/>
+  <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/main3.gif" width="220" height="300" alt="gif-login"/>
 
 </p>
 <br>
@@ -104,7 +104,7 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 ## 🤖 Autor
 
 <a href="https://github.com/DanielSBaumann">
- <img style="border-radius: 50%;" src="webcontent/readme/think.jpg" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/think.jpg" width="100px;" alt=""/>
  <br />
  <sub><b>💥Daniel Baumann💥</b></sub></a> <a href="https://github.com/DanielSBaumann" title="Daniel Baumann"></a>
  <br />
