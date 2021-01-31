@@ -54,19 +54,39 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
 - [X] Realizar login para página principal
 
-### Algumas funcionalidades:
-<br>
-<p align="center">
-  <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
+    <p align="center">
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
+    </p>
 
-  <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/main3.gif" width="220" height="300" alt="gif-login"/>
+- [X] Adcionar e remover itens do carrinho
 
-</p>
-<br>
+    <p align="center">
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
+    </p>
 
 ---
 
 ## 🚀 Como executar o projeto
+
+<br>
+
+<p>🚧🚧🚧 Em construção!! 🚧🚧🚧</p>
+
+<br>
+
+```
+    public class EmAndamento {
+
+	public static void main(String[] args) {
+
+    System.out.println("Em breve!!!");
+
+	}
+
+}
+```
+
+<br>
 
 ---
 
