@@ -54,14 +54,14 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
 - [X] Realizar login para página principal
 
-    <p align="center">
+    <p>
       <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
     </p>
 
 - [X] Adcionar e remover itens do carrinho
 
-    <p align="center">
-      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/loginscreen2.gif" width="220" height="300" alt="gif-login"/>
+    <p>
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/main2.gif" width="220" height="300" alt="gif-login"/>
     </p>
 
 ---
