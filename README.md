@@ -52,6 +52,12 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
 ## ⚙️ Funcionalidades
 
+- [X] Cadastro de novos usuários
+
+    <p>
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/crud1.gif" width="220" height="300" alt="gif-login"/>
+    </p>
+
 - [X] Realizar login para página principal
 
     <p>
@@ -62,6 +68,24 @@ Projeto desenvolvido como estudo no módulo "Javascript CSS E HTML Avançado" do
 
     <p>
       <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/main2.gif" width="220" height="300" alt="gif-login"/>
+    </p>
+
+- [X] Pesquisa de produtos
+
+    <p>
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/search1.gif" width="220" height="300" alt="gif-login"/>
+    </p>
+
+- [X] Consultar saldo , compras realizadas e itens vendidos
+
+    <p>
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/card1.gif" width="220" height="300" alt="gif-login"/>
+    </p>
+
+- [X] Realizar compras(apenas demostrativo, não existe confirmação financeira da transação)
+
+    <p>
+      <img src="https://github.com/DanielSBaumann/java-markteplace/blob/main/WebContent/readme/final1.gif" width="220" height="300" alt="gif-login"/>
     </p>
 
 ---
