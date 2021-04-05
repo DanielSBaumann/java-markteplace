@@ -290,13 +290,18 @@
 
                             <div>
                                 <label for="titular">Titular</label>
-                                <input type="text" id="titular" placeholder="Nome do titular..." oninput="this.value = this.value.replace(/[^a-zA-z %.]/g, '').replace(/(\..*)\./g, '$1');">
+                                <input type="text" id="titular" placeholder="Nome do titular..." 
+                                oninput="this.value = this.value.replace(/[^a-zA-z %.]/g, '').replace(/(\..*)\./g, '$1');">
                             </div>
                         
                             <div>
                             
                                 <label for="num-cartao">Nº Cartao</label>
-                                <input type="text" id="num-cartao" placeholder="0000 0000 0000 0000" maxlength="16" oninput="this.value = this.value.replace(/[^0-9%.]/g, '').replace(/(\..*)\./g, '$1');">
+                                <input 
+                                    type="text" 
+                                    id="num-cartao" 
+                                    placeholder="0000 0000 0000 0000" 
+                                    maxlength="16" oninput="this.value = this.value.replace(/[^0-9%.]/g, '').replace(/(\..*)\./g, '$1');">
                             
                                 <div id="card-logo">
                                     <i id="card-logo-1" class="fab fa-cc-visa"></i>
